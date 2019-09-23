@@ -1,6 +1,5 @@
 *{
   box-sizing: border-box;
-  line-height: 1.5;
 }
 
 @font-face{
@@ -9,11 +8,13 @@
 }
 
 body{
-  font-family: AvenirNext, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: AvenirNext, Arial, sans-serif;
   background-color: #eceef1;
   width: 100%;
   padding: 0 0 0 0;
   margin: 0 0 0 0;
+  line-height: 1.5;
+  font-size: 12px;
 }
 
 .navigation{
@@ -48,4 +49,77 @@ body{
   border: solid #4c4c4c 1px;
   height: 34px;
   width: 104px;
+}
+
+.form-wrapper{
+  text-align: center;
+}
+
+.intuit-logo-header{
+  text-align: center;
+}
+.intuit-logo-container{
+  padding: 20px 0;
+  margin: auto;
+}
+
+.services-logos-header{
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.services-logo-container{
+  margin: auto;
+}
+
+.logos-list{
+  list-style: none;
+  height: 23px;
+  width: 318px;
+  margin: auto;
+}
+
+li{
+  float: left;
+  margin: auto;
+}
+
+.form-container{
+  width: 380px;
+  background-color: #fff;
+  border: 1px solid #c7c7c7;
+  margin: auto;
+  border-radius: 2px;
+  padding: 30px;
+  text-align: left;
+}
+
+fieldset{
+  border: none;
+}
+
+.input-label{
+  width: 100%;
+  text-align: left;
+}
+
+input{
+  width: 100%;
+  border: 1px solid #C1C5C8;
+  border-radius: 3px;
+  height: 34px;
+  padding-left: 8px;
+  padding-right: 6px;
+  line-height: 1.3em;
+}
+
+.submit-btn{
+  width: 100%;
+  background-color: #0077c5;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  height: 44px;
+
 }
