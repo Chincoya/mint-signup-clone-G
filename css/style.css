@@ -107,8 +107,62 @@ fieldset {
 .logos-list {
   list-style: none;
   height: 23px;
-  width: 318px;
+  width: 400px;
   margin: auto;
+}
+
+.intuit-images {
+  margin-right: 9px;
+}
+
+.intuit-logo {
+  width: 118px;
+  height: 35px;
+  display: block;
+  margin: 0 auto;
+  background-image: url("../images/ecosystem_logos_new.png");
+}
+
+.little-logo {
+  width: 23px;
+  height: 23px;
+  display: inline-block;
+  margin-right: 4px;
+  position: relative;
+}
+
+.mint-logo {
+  background-image: url("../images/mint-favicon.svg");
+}
+
+.mint-logo-text {
+  width: 37px;
+  height: 14px;
+  margin-top: 3px;
+  display: inline-block;
+  background-image: url("../images/mint-text.svg");
+}
+
+.quickbooks-logo {
+  background-image: url("../images/quickbooks-favicon@2x.svg");
+}
+
+.quickbooks-logo-text {
+  width: 98px;
+  height: 22px;
+  display: inline-block;
+  background-image: url("../images/quick-books-text.svg");
+}
+
+.turbotax-logo {
+  background-image: url("../images/tt-favicon@2x.svg");
+}
+
+.turbotax-logo-text {
+  width: 74px;
+  height: 16px;
+  display: inline-block;
+  background-image: url("../images/turbo-tax-text.svg");
 }
 
 li {
@@ -218,6 +272,7 @@ fieldset {
 .footer-content-row {
   width: 100%;
   text-align: center;
+  color: #505050;
 }
 
 .page-footer-links-list {
