@@ -21,6 +21,10 @@ a {
   color: #0077c5;
 }
 
+span, label {
+  color: #4C4C4C;
+}
+
 .navigation {
   display: grid;
   height: 65px;
@@ -165,6 +169,7 @@ input {
   font-style: italic;
   display: inline-block;
   height: 100%;
+  color: #8d9096;
 }
 
 .head-container {
@@ -172,15 +177,14 @@ input {
 }
 
 .tail-container {
-  align: bottom;
   width: 100%;
   display: table;
+  color: #8d9096;
 }
 
 .captcha-footer {
   height: 50px;
   font-size: 10px;
-  color: #8d9096;
   text-align: center;
   background-color: #eceef1;
   display: table-cell;
