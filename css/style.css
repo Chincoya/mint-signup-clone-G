@@ -191,3 +191,41 @@ input {
   display: table-cell;
   vertical-align: middle;
 }
+
+.page-footer {
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 90%;
+  display: inline-block;
+}
+
+.page-footer-content-container {
+  margin: 0;
+  display: inherit;
+}
+
+.footer-content-row {
+  float: left;
+  width: 100%;
+  padding: 0 0 10px 0;
+}
+
+.page-footer-links-list {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  list-style: none;
+  margin: 0 auto;
+  float: none;
+}
+
+.footer-link {
+  margin: 0 5px;
+  color: #505050;
+  text-decoration: none;
+  text-align: center;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
