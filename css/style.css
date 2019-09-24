@@ -1,13 +1,13 @@
-*{
+* {
   box-sizing: border-box;
 }
 
-@font-face{
+@font-face {
   font-family: AvenirNext;
   src: url("font/AvenirNextLTPro-Regular.otf") format("opentype");
 }
 
-body{
+body {
   font-family: AvenirNext, Arial, sans-serif;
   background-color: #eceef1;
   width: 100%;
@@ -17,13 +17,13 @@ body{
   font-size: 12px;
 }
 
-.navigation{
+.navigation {
   display: grid;
   height: 65px;
   width: 100%;
 }
 
-.nav-links-container{
+.nav-links-container {
   align-self: center;
   justify-self: right;
   margin-right: 38px;
@@ -31,17 +31,17 @@ body{
   width: 294px;
 }
 
-.restore-links-container{
+.restore-links-container {
   float: left;
   width: 177px;
   font-size: 12px;
 }
 
-.signup-btn-container{
+.signup-btn-container {
   float: right;
 }
 
-.signup-btn{
+.signup-btn {
   padding: 0 20px;
   background-color: #0077c5;
   color: white;
@@ -51,41 +51,41 @@ body{
   width: 104px;
 }
 
-.form-wrapper{
+.form-wrapper {
   text-align: center;
 }
 
-.intuit-logo-header{
+.intuit-logo-header {
   text-align: center;
 }
-.intuit-logo-container{
+.intuit-logo-container {
   padding: 20px 0;
   margin: auto;
 }
 
-.services-logos-header{
+.services-logos-header {
   width: 100%;
   padding: 20px 0;
   text-align: center;
 }
 
-.services-logo-container{
+.services-logo-container {
   margin: auto;
 }
 
-.logos-list{
+.logos-list {
   list-style: none;
   height: 23px;
   width: 318px;
   margin: auto;
 }
 
-li{
+li {
   float: left;
   margin: auto;
 }
 
-.form-container{
+.form-container {
   width: 380px;
   background-color: #fff;
   border: 1px solid #c7c7c7;
@@ -95,16 +95,16 @@ li{
   text-align: left;
 }
 
-fieldset{
+fieldset {
   border: none;
 }
 
-.input-label{
+.input-label {
   width: 100%;
   text-align: left;
 }
 
-input{
+input {
   width: 100%;
   border: 1px solid #C1C5C8;
   border-radius: 3px;
@@ -114,7 +114,7 @@ input{
   line-height: 1.3em;
 }
 
-.submit-btn{
+.submit-btn {
   width: 100%;
   background-color: #0077c5;
   border: none;
