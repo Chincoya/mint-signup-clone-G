@@ -41,29 +41,47 @@
           </div>
         </header>
         <div class="form-container">
-          <form>
-            <fieldset>
-              <label for="email-input" class="input-label">Email</label>
-              <input type="email" class="input-field" id="email-input"
-               name="email-input">
-            </fieldset>
-            <fieldset>
-              <label for="phone-input" class="input-label">Phone(recommended)</label>
-             <input type="tel" class="input-field" id="phone-input"
-              name="phone-input">
-            </fieldset>
-            <fieldset>
-              <label for="pass-input" class="input-label">Password</label>
-             <input type="password" class="input-field" id="pass-input"
-              name="pass-input">
-            </fieldset>
-            <button class="submit-btn">
-              <i class="fas fa-lock"></i>
-              Create Account
-            </button>
-            <footer class="form-footer">
-            </footer>
-          </form>
+          <section class="head-container">
+            <header class="desc-header-container">
+              <span class="header-title">Create an Intuit account</span>
+              <span class="learn-more">
+                One account for everything Intuit, including Mint.<br>
+                <a href="#">Learn more</a>
+              </span>
+            </header>
+            <form>
+              <fieldset class="email-container">
+                <label for="email-input" class="input-label">Email</label>
+                <input type="email" class="input-field" id="email-input"
+                 name="email-input">
+              </fieldset>
+              <fieldset class="phone-container">
+                <label for="phone-input" class="input-label">Phone(recommended)</label>
+               <input type="tel" class="input-field" id="phone-input"
+                name="phone-input">
+              </fieldset>
+              <fieldset class="pass-container">
+                <label for="pass-input" class="input-label">Password</label>
+               <input type="password" class="input-field" id="pass-input"
+                name="pass-input">
+              </fieldset>
+              <button class="submit-btn">
+                <i class="fas fa-lock"></i>
+                Create Account
+              </button>
+              <footer class="form-footer">
+                <span class="terms-text">
+                  By clicking Create account, you agree to our<br>
+  <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statement</a>.
+                </span>
+              </footer>
+            </form>
+          </section>
+          <section class="tail-container">
+            <div class="captcha-footer">
+              Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.
+            </div>
+          </section>
         </div>
         <footer class="page-footer">
         </footer>

@@ -17,6 +17,10 @@ body {
   font-size: 12px;
 }
 
+a {
+  color: #0077c5;
+}
+
 .navigation {
   display: grid;
   height: 65px;
@@ -92,7 +96,6 @@ li {
   border: 1px solid #c7c7c7;
   margin: auto;
   border-radius: 2px;
-  padding: 30px;
   text-align: left;
 }
 
@@ -122,4 +125,64 @@ input {
   color: white;
   border-radius: 4px;
   height: 44px;
+}
+
+.header-title {
+  line-height: 1.1;
+  font-size: 24px;
+  font-weight: 400;
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.learn-more {
+  text-align: center;
+  display: block;
+  margin-bottom: 13px;
+}
+
+.email-container {
+  margin-bottom: 24px;
+}
+
+.phone-container {
+  margin-bottom: 40px;
+}
+
+.pass-container {
+  margin-bottom: 24px;
+}
+
+.form-footer {
+  margin-top: 35px;
+  text-align: center;
+}
+
+.terms-text {
+  font-style: italic;
+  display: inline-block;
+  height: 100%;
+}
+
+.head-container {
+  margin: 30px;
+}
+
+.tail-container {
+  align: bottom;
+  width: 100%;
+  display: table;
+}
+
+.captcha-footer {
+  height: 50px;
+  font-size: 10px;
+  color: #8d9096;
+  text-align: center;
+  background-color: #eceef1;
+  display: table-cell;
+  vertical-align: middle;
 }
