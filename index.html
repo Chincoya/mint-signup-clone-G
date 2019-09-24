@@ -2,28 +2,65 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
     <title>Intuit Accounts - Sign Up</title>
   </head>
   <body>
     <nav class="navigation">
-      <button class="signup-btn"></button>
+      <div class="nav-links-container">
+        <div class="restore-links-container">
+          <div>
+            Already have an Intuit account?
+          </div>
+          <a href="#">I forgot my User ID or Password</a>
+        </div>
+        <div class="signup-btn-container">
+          <button class="signup-btn">
+            <i class="fas fa-lock"></i>
+            Sign in
+          </button>
+        </div>
+      </div>
     </nav>
-    <header class="intuit-logo-header"></header>
     <main>
+      <header class="intuit-logo-header">
+        <div class="intuit-logo-container">LOGO</div>
+      </header>
       <section class="form-wrapper">
-        <header class="services-logos-container">
-          <ul class="logos-list">
-            <li class="services-logos"></li>
-            <li class="services-logos"></li>
-            <li class="services-logos"></li>
-          </ul>
+        <header class="services-logos-header">
+          <div class="services-logo-container">
+            <ul class="logos-list">
+              <li class="services-logos">IMG</li>
+              <li class="services-logos">IMG</li>
+              <li class="services-logos">IMG</li>
+              <li class="services-logos">IMG</li>
+              <li class="services-logos">IMG</li>
+              <li class="services-logos">IMG</li>
+            </ul>
+          </div>
         </header>
         <div class="form-container">
           <form>
-            <input type="text" class="input-field">
-            <input type="text" class="input-field">
-            <input type="password" class="input-field">
-            <input type="submit" class="submit-btn">
+            <fieldset>
+              <label for="email-input" class="input-label">Email</label>
+              <input type="email" class="input-field" id="email-input"
+               name="email-input">
+            </fieldset>
+            <fieldset>
+              <label for="phone-input" class="input-label">Phone(recommended)</label>
+             <input type="tel" class="input-field" id="phone-input"
+              name="phone-input">
+            </fieldset>
+            <fieldset>
+              <label for="pass-input" class="input-label">Password</label>
+             <input type="password" class="input-field" id="pass-input"
+              name="pass-input">
+            </fieldset>
+            <button class="submit-btn">
+              <i class="fas fa-lock"></i>
+              Create Account
+            </button>
             <footer class="form-footer">
             </footer>
           </form>
