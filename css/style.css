@@ -58,6 +58,7 @@ body {
 .intuit-logo-header {
   text-align: center;
 }
+
 .intuit-logo-container {
   padding: 20px 0;
   margin: auto;
@@ -106,7 +107,7 @@ fieldset {
 
 input {
   width: 100%;
-  border: 1px solid #C1C5C8;
+  border: 1px solid #c1c5c8;
   border-radius: 3px;
   height: 34px;
   padding-left: 8px;
@@ -121,5 +122,4 @@ input {
   color: white;
   border-radius: 4px;
   height: 44px;
-
 }
