@@ -21,8 +21,9 @@ a {
   color: #0077c5;
 }
 
-span, label {
-  color: #4C4C4C;
+span,
+ label {
+  color: #4c4c4c;
 }
 
 .navigation {
