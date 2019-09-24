@@ -7,8 +7,6 @@
   src: url("font/AvenirNextLTPro-Regular.otf") format("opentype");
 }
 
-
-
 body {
   font-family: AvenirNext, Arial, sans-serif;
   background-color: #eceef1;
