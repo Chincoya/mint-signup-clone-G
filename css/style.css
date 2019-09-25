@@ -1,0 +1,297 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: AvenirNext;
+  src: url("font/AvenirNextLTPro-Regular.otf") format("opentype");
+}
+
+body {
+  font-family: AvenirNext, Arial, sans-serif;
+  background-color: #eceef1;
+  width: 100%;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  line-height: 1.5;
+  font-size: 12px;
+}
+
+a {
+  color: #0077c5;
+}
+
+input {
+  width: 100%;
+  border: 1px solid #c1c5c8;
+  border-radius: 3px;
+  height: 34px;
+  padding-left: 8px;
+  padding-right: 6px;
+  line-height: 1.3em;
+  display: block;
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+span,
+label {
+  color: #4c4c4c;
+}
+
+fieldset {
+  padding: 0;
+  border: none;
+}
+
+.navigation {
+  display: grid;
+  height: 65px;
+  width: 100%;
+}
+
+.nav-links-container {
+  align-self: center;
+  justify-self: right;
+  margin-right: 38px;
+  height: 42px;
+  width: 294px;
+}
+
+.restore-links-container {
+  float: left;
+  width: 177px;
+  font-size: 12px;
+}
+
+.signup-btn-container {
+  float: right;
+}
+
+.signup-btn {
+  padding: 0 20px;
+  background-color: #0077c5;
+  color: white;
+  border-radius: 4px;
+  border: solid #4c4c4c 1px;
+  height: 34px;
+  width: 104px;
+}
+
+.form-wrapper {
+  text-align: center;
+}
+
+.intuit-logo-header {
+  text-align: center;
+}
+
+.intuit-logo-container {
+  padding: 20px 0;
+  margin: auto;
+}
+
+.services-logos-header {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.services-logo-container {
+  margin: auto;
+}
+
+.logos-list {
+  list-style: none;
+  height: 23px;
+  width: 400px;
+  margin: auto;
+}
+
+.intuit-images {
+  margin-right: 9px;
+}
+
+.intuit-logo {
+  width: 118px;
+  height: 35px;
+  display: block;
+  margin: 0 auto;
+  background-image: url("../images/ecosystem_logos_new.png");
+}
+
+.little-logo {
+  width: 23px;
+  height: 23px;
+  display: inline-block;
+  margin-right: 4px;
+  position: relative;
+}
+
+.mint-logo {
+  background-image: url("../images/mint-favicon.svg");
+}
+
+.mint-logo-text {
+  width: 37px;
+  height: 14px;
+  margin-top: 3px;
+  display: inline-block;
+  background-image: url("../images/mint-text.svg");
+}
+
+.quickbooks-logo {
+  background-image: url("../images/quickbooks-favicon@2x.svg");
+}
+
+.quickbooks-logo-text {
+  width: 98px;
+  height: 22px;
+  display: inline-block;
+  background-image: url("../images/quick-books-text.svg");
+}
+
+.turbotax-logo {
+  background-image: url("../images/tt-favicon@2x.svg");
+}
+
+.turbotax-logo-text {
+  width: 74px;
+  height: 16px;
+  display: inline-block;
+  background-image: url("../images/turbo-tax-text.svg");
+}
+
+li {
+  float: left;
+  margin: auto;
+}
+
+.form-container {
+  width: 380px;
+  background-color: #fff;
+  border: 1px solid #c7c7c7;
+  margin: auto;
+  border-radius: 2px;
+  text-align: left;
+}
+
+.input-label {
+  width: 100%;
+  text-align: left;
+}
+
+.submit-btn {
+  width: 100%;
+  background-color: #0077c5;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  height: 44px;
+}
+
+.header-title {
+  line-height: 1.1;
+  font-size: 24px;
+  font-weight: 400;
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.learn-more {
+  text-align: center;
+  display: block;
+  margin-bottom: 13px;
+}
+
+.email-container {
+  margin-bottom: 24px;
+}
+
+.phone-container {
+  margin-bottom: 40px;
+}
+
+.pass-container {
+  margin-bottom: 24px;
+}
+
+.form-footer {
+  margin-top: 35px;
+  text-align: center;
+}
+
+.terms-text {
+  font-style: italic;
+  display: inline-block;
+  height: 100%;
+  color: #8d9096;
+}
+
+.head-container {
+  margin: 30px;
+}
+
+.tail-container {
+  width: 100%;
+  display: table;
+  color: #8d9096;
+}
+
+.captcha-footer {
+  height: 50px;
+  font-size: 10px;
+  text-align: center;
+  background-color: #eceef1;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.page-footer {
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 90%;
+  display: inline-block;
+}
+
+.page-footer-content-container {
+  margin: 0;
+  display: block;
+}
+
+.footer-content-row {
+  width: 100%;
+  text-align: center;
+  color: #505050;
+}
+
+.page-footer-links-list {
+  padding: 0;
+  margin-top: 8px;
+  margin-bottom: 0;
+  overflow: hidden;
+  display: inline-block;
+  list-style-type: none;
+}
+
+.footer-link {
+  margin: 0 5px;
+  color: #505050;
+  text-decoration: none;
+  text-align: center;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.font-width {
+  display: inline;
+}
